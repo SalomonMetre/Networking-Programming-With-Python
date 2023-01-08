@@ -1,6 +1,6 @@
 import dns.resolver as dnsres
 
-# Finding 'A' record and CNAME record
+# Finding 'A' record, CNAME record and MX record
 a_result=dnsres.resolve('carata.co.ke','A')
 cname_result=dnsres.resolve('carata.co.ke','CNAME')
 mx_result=dnsres.resolve('carata.co.ke','MX')
